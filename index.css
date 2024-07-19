@@ -1,0 +1,157 @@
+body {
+    background-color: #1C1C1C;
+    text-align: center;
+    margin: 0;
+    padding: 20% auto;
+    font-family: Inter, sans-serif;
+     background: #1F2937;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* unpopulated-state */
+
+        /* populated-state */
+
+/* Heading */
+#heading{
+        position: absolute;
+        width: 354px;
+        height: 300px;
+        left: 0px;
+        top: -37px;
+
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 40px;
+        /* or 100% */
+        letter-spacing: -0.025em;
+
+        /* white */
+        color: #FFFFFF;
+}
+
+
+/* Heading */
+
+#heading2 {position: absolute;
+width: 354px;
+height: 80px;
+left: 55px;
+top: 11px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+letter-spacing: -0.025em;
+
+color: #4ADF86;
+}
+
+#txt {
+    /* Supporting text */
+
+        position: absolute;
+        width: 372px;
+        height: 28px;
+        left: 85px;
+        top: 70px;
+
+        /* text-xl/leading-7/font-normal */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        /* identical to box height, or 140% */
+
+        /* Medium grey */
+        color: #D5D4D8;
+
+
+}
+
+#psd-button {
+    /* Button */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 9px 17px 9px 15px;
+        gap: 12px;
+
+        position: absolute;
+        width: 191px;
+        height: 42px;
+        left: 87px;
+        top: 150px;
+
+        background: #10B981;
+        /* shadow/sm */
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+
+}
+
+.main-container {
+            /* populated-state */
+            
+           position: relative;
+            padding: 30px;
+            background: #1F2937;
+
+            width: 200px;
+            height: 100px;
+            
+            text-align: center;
+            line-height: 100px; 
+    }
+    
+    .custom-line {
+            border: none; /* Remove default border */
+            border-top: 2px solid #0f1419; /* Add custom border on top */
+             /* Add some margin for spacing */
+            width: 230%;
+            top: 186px;
+            margin: 700px 100px 20px 70;
+           position: relative; /* Set position to relative */
+            left: 29%; 
+}
+
+.outputs {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    position: absolute;
+    bottom: 0px;
+    top: 250px;
+    left: 100px;
+}
+
+#output1, #output2 {
+    /* Text */
+            
+   min-width: 120%; /* Increase min-width as needed */
+    border-radius: 6px;
+    background: #273549;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 0px;
+    text-align: center;
+    color: #10B981;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+
+}
+
